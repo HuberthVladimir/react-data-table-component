@@ -223,6 +223,10 @@ export interface PaginationOptions {
 	rangeSeparatorText?: string;
 	selectAllRowsItem?: boolean;
 	selectAllRowsItemText?: string;
+	previousPageLabel?: string,
+	nextPageLabel?: string,
+	firstPageLabel?: string,
+	lastPageLabel?: string,
 }
 
 export interface PaginationServerOptions {
