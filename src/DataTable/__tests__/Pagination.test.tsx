@@ -4,7 +4,7 @@
 
 import 'jest-styled-components';
 import * as React from 'react';
-import { fireEvent } from '@testing-library/react';
+import { screen, fireEvent } from '@testing-library/react';
 import { renderWithTheme } from '../../internal/test-helpers'; // since child elements require theme
 import Pagination from '../Pagination';
 
