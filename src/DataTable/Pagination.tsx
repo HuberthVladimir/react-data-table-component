@@ -154,7 +154,7 @@ function Pagination({
 			)}
 			{shouldShow && <Range>{range}</Range>}
 			<PageList>
-			<Button
+				<Button
 					id="pagination-first-page"
 					type="button"
 					aria-label={options.firstPageLabel}
